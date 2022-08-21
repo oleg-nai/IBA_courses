@@ -1,0 +1,56 @@
+﻿There are two datasets in the train.csv and test.csv attachments with the following fields:
+ 
+ 'USER_ID' - subscriber identifier,
+ 'ACT_DATE '- date of activation of the subscriber,
+ 'STATUS' - code of the current status of the subscriber,
+ 
+ 'TP_CURRENT' - subscriber's tariff plan code,
+ 'TP_CHANGES_NUM' - the number of changes of the tariff plan by the subscriber,
+ 
+ 'START_PACK' - the type of subscriber’s connection, regular (at the service center) or through a promotional channel (offer to connect in public places, usually with bonuses),
+ 'OFFER_GROUP' - type of service package upon connection, type Promo means that the subscriber was given bonuses or discounts for a certain period,
+ 'BIRTHDAY' - date of birth of the subscriber,
+ 'GENDER' - gender of the subscriber,
+ 'MLLS_STATE' - the status of a member of the company loyalty club,
+ 
+
+ 'PORTED_IN' - whether the subscriber was ported to the life :) network (did he completely transfer the number, for example, from Velcom or MTS),
+ 'PORTED_OUT'– whether the subscriber from the life :) network was ever ported, but then came back,
+ 
+'OBLIG_NUM' - the number of times when a subscriber bought equipment (for example, telephone) in the service salon by installments (from obligations - obligations),
+ 'OBLIG_ON_START' - whether the subscriber bought the equipment on his first day of entering the network (activation),
+ 
+'ASSET_TYPE_LAST' - type of the last equipment purchased,
+ 'DEVICE_TYPE_BUS' - the type of device that the subscriber uses most of his time in the fall of 2016 (in the one where the SIM card is inserted),
+ 
+'USAGE_AREA' is the type of locality where the subscriber spends most of his time on the network in the fall of 2016 (Regional Cities - regional cities without Minsk, Local Towns - all other towns with city status, Countryside - everything else),
+ 
+
+
+ 'OUTGOING_OCT_16' - the total number of minutes of outgoing calls in October 2016,
+ 'OUTGOING_NOV_16' - the total number of minutes of outgoing calls in November 2016,
+ 
+ 'GPRS_OCT_16' - total used Internet traffic of the subscriber in megabytes in October 2016,
+ 'GPRS_NOV_16' - total used Internet traffic of the subscriber in megabytes in November 2016,
+ 
+
+
+
+ 'REVENUE_OCT_16' - the amount of money debited from the subscriber's balance in October 2016 (new rubles, BYN) for the traffic used, not included in the tariff plan, subscription fee, connection of paid services, etc.
+ 'REVENUE_NOV_16' - the amount of money debited from the balance of the subscriber in November 2016 (new rubles, BYN),
+   
+ 'REFILL_OCT_16' - the amount of replenishment of the balance by the subscriber in October 2016 (in old rubles, BYR),
+ 'REFILL_NOV_16'– amount of topping up a balance by a subscriber in November 2016 (in old rubles, BYR),
+ 
+ There are natural omissions in the data - for example, if there is no information about the outgoing calls of the subscriber, it means that he did not have them.  In cases of installments, loyalty club, porting, etc. - the subscriber did not participate in these events.  The type and location of the device are absent - there was no activity or (less often) the phone was not detected.  Start-pack and offer-group: for technical reasons there is no information.
+ 
+ Total for the task from you is expected:
+1) 5 different visualizations on Matplotlib that not only show various dependencies, but from which certain conclusions can be drawn.
+2) 5 different visualizations on Seaborn that not only show various dependencies, but from which certain conclusions can be drawn.
+3) Visualization conclusions are required!
+4*) 5 different visualizations on Plotly that not only show various dependencies, but from which certain conclusions can be drawn.
+
+
+
+
+ Good luck!
